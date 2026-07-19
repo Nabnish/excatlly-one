@@ -501,7 +501,7 @@ export default function ExactlyOne() {
   const ticks = [0, 1, 5, 10, 25, 50, 75, 100];
 
   return (
-    <div className="min-h-full w-full bg-[#050506] text-[#eef2f8] flex items-center justify-center p-4">
+    <div className="min-h-screen w-full bg-[#050506] text-[#eef2f8] flex items-center justify-center p-4">
       <div className="w-full max-w-2xl">
         <div className="flex items-baseline justify-between mb-3 px-1">
           <h1 className="text-2xl sm:text-3xl font-black tracking-[0.15em] uppercase">
