@@ -52,7 +52,7 @@ const SWEEP = 260;
 
 function rand(min, max) { return Math.random() * (max - min) + min; }
 
-export default function ExactlyOne() {
+export default function App() {
   const canvasRef = useRef(null);
   const needleRef = useRef(null);
   const wrapRef = useRef(null);
